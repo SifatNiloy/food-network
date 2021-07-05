@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 800px;
+}
+.orange-text{
+    color: orange;
+}
+.first-section{
+    display: flex;
+    height: 500px;
+}
+.half-width{
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.half-width img{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 150px;
+}
+.gradient-button{
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(90deg,orange, tomato);
+    padding: 10px 20px;
+    border-radius: 20px;
+    
+}
+.second-section{
+    display: flex;
+    height: 500px;
+    background-image: url(images/bg-2.jpg);
+
+}
+.middle-text{
+    text-align: center;
+    height: 200px;
+}
+.forth-section{
+    display: flex;
+    height: 500px;
+}
+.three-boxes{
+    width: 30%;
+    margin-left: 3%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 2%;
+    
+}
+.container{
+    display: flex;
+}
+.three-boxes img{
+    width: 70%;
+}
+footer{
+    margin-top: 3%;
+    color: white;
+    text-align: center;
+    height: 200px;
+    background-image: url(images/footer-black-background.jpg);
+}
+
+
