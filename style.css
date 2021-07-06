@@ -1,27 +1,96 @@
 body{
     margin: 0px;
 }
+#top-banner{
+    display: flex;
+    margin: auto;
+    background-image: url(images/green-bg.png);
+    height: 150px;
+}
+#top-banner h2{
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 50px;
+    color: rgb(255, 111, 28);
+    margin-top: -10px;
+}
+#green-text{
+    color: #139103;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#eat-right{
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 30px;
+    color: rgb(255, 111, 28);
+    margin: 3px 0px 10px 0px;
+}
+#be-smart{
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 20px;
+    color: #0091ad;
+    margin-top: -15px;
+}
+#number{
+    color: rgb(148, 22, 0);
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    padding: 5px 10px;
+}
+.slogan{
+    width: 30%;
+    margin-left: 3%;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 2%;
+    
+}
+
+#featured{
+    
+    height: 700px;
+    
+}
+#featured h2{
+    color: #ff7a59;
+    margin-left: 50px;
+    padding-top: 30px;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Handlee', cursive;
+}
+#featured-product{
+    display: flex;
+    height: 500px;
+    margin-top: 40px;
+    
+}
+#featured-product img{
+    max-height: 250px;
+    border-radius: 20px;
+}
 h1{
+    color: #575757;
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
-    font-weight: 800px;
+    margin:0px auto;
 }
 .orange-text{
     color: orange;
 }
-.first-section{
+#skip-diet{
     display: flex;
-    height: 500px;
+    height: 550px;
+    background-image: url(images/bg-4.png);
 }
 .half-width{
-    width: 40%;
+    width: 39%;
     margin-top: 5%;
     margin-left: 5%;
 }
 .half-width img{
     width: 100%;
     margin-left: 0px;
-    margin-right: 150px;
+    margin-right: 100px;
 }
 .gradient-button{
     color: white;
@@ -31,19 +100,25 @@ h1{
     border-radius: 20px;
     
 }
-.second-section{
+#about{
     display: flex;
     height: 500px;
     background-image: url(images/bg-2.jpg);
 
 }
-.middle-text{
+#my-recipe{
     text-align: center;
     height: 200px;
+    width: 70%;
+    margin: 50px auto;
+    
 }
-.forth-section{
+#box-items{
     display: flex;
     height: 500px;
+}
+#box-items img{
+    border-radius: 20px;
 }
 .three-boxes{
     width: 30%;
@@ -54,18 +129,57 @@ h1{
     padding-top: 2%;
     
 }
-.container{
+#container{
     display: flex;
+    height: 500px;
+}
+#container img{
+    border-radius: 20px;
 }
 .three-boxes img{
-    width: 70%;
+    width: 90%;
+}
+.three-boxes p{
+    padding: 0px 30px;
+}
+#food-network-online{
+    display: flex;
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+#food-network-online{
+    width: 50%;
 }
 footer{
-    margin-top: 3%;
+    padding-top: 1%;
     color: white;
     text-align: center;
     height: 200px;
-    background-image: url(images/footer-black-background.jpg);
+    background-color: black;
+    
+}
+footer small{
+    font-size: 10px;
+}
+#last-box{
+    display: flex;
+    margin: 100px auto;
+    height: 150px;
+    width: 70%;
+    box-shadow: 10px 10px 60px rgb(165, 165, 165);
+    border-radius: 20px;
+    padding-top: 2%;
+    text-align: center;
+}
+.social-platform{
+    width: 30%;
+    margin-left: 3%;
+    
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 2%;
+
 }
 
 
